@@ -1,5 +1,5 @@
 
- @type {import('next').NextConfig} 
+import('next').NextConfig 
 const nextConfig = {
     output: 'export',
     typescript: {
