@@ -15,10 +15,7 @@ export default function Home() {
         {navItems}
         />
       <Hero />
-      <Grid />
-      <TechStack />
-      <Experience />
-      <Footer />
+      
     </main>
   );
 }
