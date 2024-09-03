@@ -19,6 +19,7 @@ export default function Home() {
       <TechStack />
       <Experience />
       <Footer />
+      
     </main>
   );
 }

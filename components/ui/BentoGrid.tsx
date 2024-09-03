@@ -7,8 +7,6 @@ import Lottie from "react-lottie";
 import animationData from '@/data/confetti.json'
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
-import { WavyBackground } from "./wavy-background";
-import { AuroraBackground } from "./aurora-background";
 
 export const BentoGrid = ({
   className,
@@ -118,7 +116,7 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-
+          {id=== 2 && <GridGlobe />}
 
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
