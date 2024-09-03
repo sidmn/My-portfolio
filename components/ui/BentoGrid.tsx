@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import GridGlobe from "./GridGlode";
+import GridGlobe from "./GridGlobe";
 import { useState } from "react";
 import Lottie from "react-lottie";
 import animationData from '@/data/confetti.json'
