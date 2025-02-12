@@ -5,16 +5,14 @@ import MagicButton from './ui/MagicButton'
 
 const Footer = () => {
   return (
-    <footer className="w-full pb-10" id="contact">
+    <footer className="w-full pt-20 pb-10" id="contact">
 
       <div className="flex flex-col items-center md:gap-0 gap-5">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          My skillset aligns with <span className="text-purple">your</span> requirements?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Let&apos;s connect and explore how I can contribute to your team.
         </p>
         <div className="flex flex-row gap-5">
             <a href="mailto:sidmantri3@gmail.com">
@@ -24,7 +22,7 @@ const Footer = () => {
             position="right"
           />
             </a>
-            <a target="_blank" href="https://docs.google.com/presentation/d/1ljW24ROqc8CPDE1_rvswVl0mMDdJYBmL_no7pH3_u44/edit?usp=sharing">
+            <a target="_blank" href="https://drive.google.com/file/d/1S7TXn9NIgI_I_TMes4oytnOYcSsDQaIu/view?usp=sharing">
           <MagicButton
             title="Check out my Resume"
             icon={<FaLocationArrow />}

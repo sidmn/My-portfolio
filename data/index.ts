@@ -12,7 +12,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "/b1.webp",
       spareImg: "",
     },
     {
@@ -189,7 +189,7 @@ export const navItems = [
   
   export const workExperience = [
     {
-      title: "Data Analyst and Business Development Intern",
+      title: "Tech and Business Development Intern",
       company: "Recircle, Mumbai",
       date: "January 2024 - June 2024",
       tools: "Zoho CRM, Zoho Analytics, Excel, Powerpoint",

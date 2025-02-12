@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
@@ -7,6 +8,7 @@ import animationData from '@/data/confetti.json'
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import { WavyBackground } from "./wavy-background";
+
 
 export const BentoGrid = ({
   className,
@@ -66,22 +68,17 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+        "row-span-1 relative overflow-hidden rounded-3xl group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 bg-gradient-to-r from-[#10132a]  to-[#01041f]",
         className
       )}
-      style={{
-        background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-      }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
-        <div className="w-full h-full absolute"> 
+        <div className={"w-full h-full absolute"}> 
           {img && (
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, 'object-cover, object-center')}
+              className={cn(imgClassName, "object-cover object-center")}
             />
           )}
         </div>
@@ -90,7 +87,7 @@ export const BentoGridItem = ({
             <img
             src={spareImg}
             alt={spareImg}
-            className={'object-cover, object-center, w-full, h-full'}
+            className={'object-cover, object-center'}
           />
           )}
         </div>
@@ -147,7 +144,7 @@ export const BentoGridItem = ({
           )}
 
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="mt-5 md:mt-0 relative">
 
               <div
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
