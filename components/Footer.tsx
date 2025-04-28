@@ -22,7 +22,7 @@ const Footer = () => {
             position="right"
           />
             </a>
-            <a target="_blank" href="https://drive.google.com/file/d/1S7TXn9NIgI_I_TMes4oytnOYcSsDQaIu/view?usp=sharing">
+            <a target="_blank" href="https://drive.google.com/file/d/1rOnKp9yArdt86P2h-dQqZ2pbgsev0BU5/view?usp=sharing">
           <MagicButton
             title="Check out my Resume"
             icon={<FaLocationArrow />}

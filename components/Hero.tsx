@@ -39,9 +39,9 @@ const Hero = () => {
             Hi, I&apos;m Siddharth Mantri, a Frontend Developer Based in Kolkata, India.            
           </p>
 
-          <a href="#about">
+          <a href="https://scrapbook.siddharth-mantri.co.in/">
             <MagicButton 
-              title="About Me"
+              title="Visit my Scrapbook"
               icon={<FaLocationArrow />}
               position='right'
             />
