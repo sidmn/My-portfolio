@@ -39,7 +39,7 @@ const Hero = () => {
             Hi, I&apos;m Siddharth Mantri, a Frontend Developer Based in Kolkata, India.            
           </p>
 
-          <a href="cool-portfolio-eta.vercel.app">
+          <a href="https://cool-portfolio-eta.vercel.app/">
             <MagicButton 
               title="Visit my Scrapbook"
               icon={<FaLocationArrow />}
