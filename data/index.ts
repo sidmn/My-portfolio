@@ -163,18 +163,24 @@ export const navItems = [
     },
     {
       id: 5,
+      name: "Angular",
+      img: "/angular.svg",
+      nameImg: "/dockerName.svg",
+    },
+    {
+      id: 6,
       name: "React.Js",
       img: "/react.svg",
       nameImg: "/dockerName.svg",
     },
     {
-      id: 6,
+      id: 7,
       name: "Next.Js",
       img: "/nextjs.svg",
       nameImg: "/dockerName.svg",
     },
     {
-      id: 7,
+      id: 8,
       name: "Tailwind CSS",
       img: "/tailwindcss.svg",
       nameImg: "/dockerName.svg",
@@ -189,10 +195,21 @@ export const navItems = [
   
   export const workExperience = [
     {
+      title: "System Engineer",
+      company: "Tata Consultancy Services, (NSE Onsite), Mumbai",
+      date: "May 2025 - Present",
+      tools: "Angular, Springboot (learning), SQL, Linux",
+      skillset: "Frontend Development, API Development, CI-CD",
+      listitems: ["Migrating legacy frontend systems to Angular, improving maintainability and page load speed by 40%.",
+        "Modularizing the migration code by creating multiple reusable components which led to increase in migration speed by over 50%.",
+        "Collaborating with backend and QA teams for seamless integration and CI/CD deployment."
+      ]
+    },
+    {
       title: "Tech and Business Development Intern",
       company: "Recircle, Mumbai",
       date: "January 2024 - June 2024",
-      tools: "Zoho CRM, Zoho Analytics, Excel, Powerpoint",
+      tools: "Zoho CRM, Zoho Analytics, Excel",
       skillset: "Market Research, Data Visualization, Data Analysis",
       listitems: ["Managed data sorting, cleaning, and analysis tasks to ensure accurate and reliable datasets.",
         "Digitized the Material Recovery Facility (MRF) and developed analytical dashboards using Zoho Analytics, providing actionable insights to support strategic decision-making.",
@@ -203,13 +220,13 @@ export const navItems = [
       title: "Founder and Project Leader",
       company: "Armedis Studios Pvt. Ltd., Kolkata",
       date: "June 2021 - December 2022",
-      tools: "WordPress, Figma, CSS, JavaScript, Blender",
+      tools: "ReactJs, Figma, CSS, JavaScript, TypeScript",
       skillset: "Project Management, Business Development, Frontend Development",
-      listitems: ["Bootstrapped a completely new cryptocurrency game from scratch without any investment to create a turnover of 1,25,000 USD.",
-        "Hired and managed a team of developers and designers who worked together to create different elements and content designs for the entire project.",
-        "Wrote the entire game concept, and white paper and closely monitored its design and development.",
-        "Managed a community of 4000 members by actively engaging with them through chat, announcements, and in-house games.",
-        "Collaborated and engaged with multiple other projects while initially having no connections to becoming a well-known name in the ecosystem."
+      listitems: ["Bootstrapped a blockchain-based crypto gaming startup generating $125K+ turnover and $200K+ in total ecosystem revenue.",
+        "Led a cross-functional team of 8 developers and designers, managing roadmap, architecture, and community engagement",
+        "Designed and implemented user-centric frontend using React.js and integrated blockchain APIs.",
+        "Authored the game whitepaper and executed GTM strategy, scaling a community of 4,000+ members.",
+        "Collaborated with 3 partner projects to enhance user growth and ecosystem engagement."
       ]
     },
   ];

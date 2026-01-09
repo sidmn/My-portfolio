@@ -22,7 +22,7 @@ const Footer = () => {
             position="right"
           />
             </a>
-            <a target="_blank" href="https://drive.google.com/file/d/1rOnKp9yArdt86P2h-dQqZ2pbgsev0BU5/view?usp=sharing">
+            <a target="_blank" href="https://drive.google.com/file/d/1FzQf8hsDzdK1qbJN_UB-EkSHLd_uYkxJ/view?usp=sharing">
           <MagicButton
             title="Check out my Resume"
             icon={<FaLocationArrow />}
@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Siddharth Mantri
+          Copyright © 2026 Siddharth Mantri
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
